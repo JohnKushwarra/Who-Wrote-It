@@ -1,0 +1,28 @@
+{
+  "rows_by_split": {
+    "train": 1734,
+    "validation": 372,
+    "test": 375
+  },
+  "truncated_rows_by_field": {
+    "train": {
+      "LLM_Input": 96,
+      "LLM_output": 1675
+    },
+    "validation": {
+      "LLM_Input": 9,
+      "LLM_output": 354
+    },
+    "test": {
+      "LLM_Input": 33,
+      "LLM_output": 364
+    }
+  },
+  "vocabulary_size": 12000,
+  "label_order": [
+    "Gemma",
+    "Mistral",
+    "Qwen"
+  ],
+  "input_only_control": "Each prompt occurs once per class in every split. Deterministic input-only predictions must score exactly 1/3 accuracy."
+}

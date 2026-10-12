@@ -1,0 +1,7 @@
+split,selected,reference,difference,low,high,groups
+original_test,mixed_tuned_trio,cnn_448,0.021333333333333333,-0.008,0.050666666666666665,125
+original_test,mixed_tuned_trio,cnn_seed_mean,0.024,0.0,0.048066666666665696,125
+original_test,mixed_tuned_trio,linear_word_char_svm,0.0,-0.015999999999999997,0.013333333333333334,125
+confirmation,mixed_tuned_trio,cnn_448,0.03954802259887005,-0.005649717514124294,0.08474576271186439,59
+confirmation,mixed_tuned_trio,cnn_seed_mean,0.03954802259887005,-0.005649717514124294,0.0847457627118644,59
+confirmation,mixed_tuned_trio,linear_word_char_svm,-0.01694915254237288,-0.04519774011299434,0.005649717514124294,59

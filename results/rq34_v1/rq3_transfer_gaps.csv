@@ -1,0 +1,5 @@
+architecture,target_task,transfer_source,transfer_minus_within_accuracy,difference_sd_across_seeds,prompt_bootstrap_low,prompt_bootstrap_high,test_prompt_groups,interval_scope
+cnn,question_answering,drafting,-0.07999999999999996,0.05333333333333301,-0.15555555555555556,-0.0044444444444444444,25,Conditional on these six trained models; not a population or seed-generalization guarantee.
+cnn,drafting,question_answering,-0.10027100271002698,0.020460255922142956,-0.15718157181571815,-0.04336043360433604,41,Conditional on these six trained models; not a population or seed-generalization guarantee.
+lstm,question_answering,drafting,-0.062222222222222325,0.0601233300376386,-0.1733333333333333,0.048888888888888885,25,Conditional on these six trained models; not a population or seed-generalization guarantee.
+lstm,drafting,question_answering,0.05149051490514903,0.016924113816797804,-0.010840108401084006,0.1138211382113821,41,Conditional on these six trained models; not a population or seed-generalization guarantee.

@@ -1,0 +1,21 @@
+{
+  "test_rows": 375,
+  "test_groups": 125,
+  "errors": {
+    "cnn": 31,
+    "lstm": 101,
+    "svm": 23
+  },
+  "all_three_wrong": 9,
+  "all_three_correct": 258,
+  "selection": "In listed category order, choose smallest sample_id not already selected. Post-hoc illustrations, not a random or representative sample.",
+  "interpretation": "Visible token strings precede vocabulary lookup; unknown_neural_tokens counts strings mapped to UNK. Whitespace is not preserved. No example diagnoses a causal failure mechanism.",
+  "hashes": {
+    "data/processed/dataset.jsonl": "9a207f809ebc787c98bb224946b82918c38ebada20c7c92e681112862935b89a",
+    "results/initial_v1/cnn_output/predictions.csv": "6483120038e246340de3ad415fc59f172036800a1244c28901b7eb8f537eedf4",
+    "results/initial_v1/lstm_output/predictions.csv": "a1ac77ab1a299e28d1415ee4add0f30b5dd0c42e88f9362c3fc2dd7988eaf81e",
+    "results/classifiers_v1/evaluations/original_test/linear_word_char_svm/predictions.csv": "551ebdea72a364cbf68f2ad68e31550e2ab0d1319c786868b8fde11608cbc54b",
+    "results/initial_v1/vocab.json": "64dbc613d59195d27f45c53924156985f32a060c4a5f315e2900c866304f8f1f",
+    "src/analyze_errors.py": "2daf9afcef73a10947a8cbe632ea579531dcd55b64dafc9b73f3f75fa2e4d9c3"
+  }
+}

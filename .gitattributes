@@ -1,0 +1,4 @@
+# Preserve exact file bytes for reports and recorded source hashes.
+* -text
+*.pdf binary
+*.png binary
